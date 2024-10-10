@@ -1,0 +1,41 @@
+ftuition=input
+fcost1=input
+fcost2=input
+fcost3=input
+fcost4=input
+fcost5=input
+fcost6=input
+fcost7=input
+moneytype=input
+fcost9=input
+
+print("Welcome to Money Manage")
+print("Please follow the instructions")
+print()
+moneytype=input("please enter your currency type. eg. Canadian dollars, Japanese Yen, Euros")
+print("please round all of your amounts up to the nearest whole number. eg. $1.80 = $2.00")
+ftuition=int(input("enter your monthly tuition expenses"))
+fcost1=int(input("enter your monthly food expenses"))
+fcost2=int(input("enter your monthly bill expenses. do not include cell phone or internet"))
+fcost3=int(input("enter your monthly cell phone bill"))
+fcost4=int(input("enter your monthly internet cost"))
+fcost5=int(input("enter your monthly rent"))
+fcost6=int(input("enter your average monthly clothing and hobby expenses"))
+fcost7=int(input("enter your average monthly expenses for parties or gifts"))
+total=ftuition+fcost1+fcost2+fcost3+fcost4+fcost5+fcost6+fcost7
+print()
+print("Thank you for inputting all needed values")
+print("all expenses in",moneytype)
+print("tuition  ",ftuition,"$")
+print("food  ",fcost1,"$")
+print("bills  ",fcost2,"$")
+print("cell phone  ",fcost3,"$")
+print("internet  ",fcost4,"$")
+print("rent  ",fcost5,"$")
+print("clothing and hobby  ",fcost6,"$")
+print("treats ",fcost7,"$")
+
+print("total:")
+print(total,moneytype)
+
+print("thank you for using Money Manage")
