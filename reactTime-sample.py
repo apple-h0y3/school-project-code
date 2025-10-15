@@ -5,7 +5,7 @@ reactp=random.randint(1, 6)
 
 #this pauses the program to allow the user to prepare
 time.sleep(1)
-#this lets the user initiat the test
+#this lets the user initiate the test
 pause1=input("ready?")
 print()
 #this pulls the randomized delay from line 4 and uses it as the test delay

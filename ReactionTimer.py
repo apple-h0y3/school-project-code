@@ -1,9 +1,14 @@
 # /*******************************************************************************
-#  * Title: Python Data Analysis Script
+#  * Title: Reaction Timer
 #  * Author: apple-h0y3
 #  * Date: October 14, 2025
 #  * Code version: v1.3
-#  * Availability: 
+#  * Availability: https://github.com/apple-h0y3/school-project-code
+#  * Notes:
+#       This code was written as part of a lab report experiment
+#       that measured the reaction time of varying people to 
+#       produce statistically significant results. There are 10 
+#       tests in this program. 
 #  ******************************************************************************/
 
 
